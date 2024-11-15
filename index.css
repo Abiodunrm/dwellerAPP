@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100vw;
+}
+.navbar a{
+color: #FFFEFE;
+width: 100px;
+height: 37px;
+top: 56px;
+left: 501px;
+gap: 0px;
+opacity: 0px;
+text-decoration: none;
+font-size: 18px;
+
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: absolute;
+    top: 56px;
+    left: 501px;
+}
+
+.logoWithText{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+
+}
+.logoImage{
+width: 373px;
+height: 218px;
+top: -26px;
+left: -48px;
+gap: 0px;
+opacity: 0px;
+
+}
+.logoText{
+width: 483px;
+height: 61px;
+top: 112px;
+left: -10px;
+gap: 0px;
+opacity: 0px;
+color: #FFFEFE;
+font-size: 12px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.input-emailcontainer{
+     margin: 90px;
+     width: 317px;
+     height: 39.75px;
+     top: 257.88px;
+     left: 70px;
+     gap: 0px;
+     opacity: 0px;
+
+}
+input[type='email'],input[type='password']{
+    width: 100%;
+    max-width:500px;
+    border: none;
+    font-size:16px;
+    background-color: transparent;
+    text-align: left;
+    color: aqua;
+    
+}
+
+
+.emailText,.passwordText{
+   width: 53px;
+   height: 39.75px;
+   top: 257.88px;
+   left: 48px;
+   gap: 0px; 
+   opacity: 0px;
+   color: #FFFEFE;
+
+}
+.textPass{
+    display: flex;
+    color: #FFFEFE;
+
+}
+input::placeholder{
+    color: #FFFEFE;
+}
+#Eyelashes{
+text-align: left;
+}
+.login{
+    width: 211px;
+    height: 56px;
+    position: relative;
+    top: 59px;
+    left: 56px;
+    gap: 0px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    opacity: 0px;
+    color: #000000;
+    background-color: #66C0C8;
+}
+.login a{
+    text-decoration: none;
+    color: #000000;
+}
+.continue{
+    position: relative;
+    top: 59px;
+    left: -670px;
+    margin-top: 20px;
+    color: #343131;
+
+    font-size: 18px;
+}
+.socialSignup{
+display: flex;
+flex-direction: row;
+gap: 60px;
+}
+.google, .facebook{
+    width: 112px;
+    height: 51.79px;
+    display: flex;
+
+
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 70px;
+    left: 13px;
+    gap: 6px;
+    border-radius: 10px;
+    border: 2px solid #FFFEFE;
+    opacity: 0px;
+    background-color:  #66C0C8;
+    ;
+    
+    
+}
+.facebook{
+
+}
+
